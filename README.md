@@ -1,7 +1,7 @@
 # Towards Alias-Free 4D Gaussian Representations with Motion-Aware Filtering
 
 [Ankit Dhiman](https://ankitdhim.github.io/)<sup>1,2</sup> &nbsp;·&nbsp;
-Kunal A Kathare<sup>1</sup> &nbsp;·&nbsp;
+[Kunal A Kathare](https://kunalkathare.github.io/)<sup>1</sup> &nbsp;·&nbsp;
 Pranav Vignesh<sup>1</sup> &nbsp;·&nbsp;
 [Lokesh R Boregowda](https://in.linkedin.com/in/lokesh-boregowda-14321810)<sup>2</sup> &nbsp;·&nbsp;
 [R. Venkatesh Babu](https://cds.iisc.ac.in/faculty/venky/)<sup>1</sup>
@@ -9,7 +9,8 @@ Pranav Vignesh<sup>1</sup> &nbsp;·&nbsp;
 <sup>1</sup>Indian Institute of Science, Bangalore &nbsp;&nbsp;
 <sup>2</sup>Samsung R&D Institute India – Bangalore
 
-### [Project Page](https://maaf-4dgs.github.io/) | [Paper](https://arxiv.org/abs/2608.21828)
+[![arXiv](https://img.shields.io/badge/arXiv-MAAF--4DGS-red)](https://arxiv.org/abs/2608.21828)
+[![Project](https://img.shields.io/badge/Project-Website-green)](https://maaf-4dgs.github.io/)
 
 <img src="assets/teaser.png" alt="MAAF teaser" width="100%" />
 
@@ -40,12 +41,10 @@ backbone; pick the one matching the results you want to reproduce.
 | **SaRO-GS** | `SaRO-GS/` | Plenoptic Video, D-NeRF, HyperNeRF | 🚧 Coming soon |
 
 **SaRO-GS is the primary backbone** — the main tables of the paper (Plenoptic Video, D-NeRF and
-HyperNeRF) are produced with it. **SpeeDe3DGS is the generality experiment**: it shows the same
-filter transfers unchanged to an architecturally different 4D representation, improving it by
-**+4.45 dB PSNR** on D-NeRF while using *fewer* Gaussian primitives.
+HyperNeRF) are produced with it. **We further show experiments on SpeeDe3DGS** which shows the same
+filter transfers unchanged to a different 4D representation and mitigates the alisasing artefacts.
 
-Each directory is a standalone codebase with its own environment, submodules and README — they
-are not meant to share a Python environment.
+Each directory is a standalone codebase with its own environment.
 
 ## Citation
 
