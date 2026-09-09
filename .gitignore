@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ─── MAAF-4DGS project-specific ───────────────────────────────────────────────
+output*/
+data/
+*.ply
+*.pth
+filter_*.pt
+comparison_results*/
+grid_search_*/
+results*.json
+per_view*.json
